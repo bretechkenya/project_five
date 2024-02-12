@@ -4,3 +4,43 @@ body {
 	margin: 0;
 	padding: 0;
 }
+.about-image {
+	bottom: 1px solid black;
+	width: 30%;
+	height: 100%;
+}
+.service-container {
+	height: auto;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: ;
+}
+p {
+	text-align: justify;
+	font-size: 16px;
+}
+.submit-button {
+	margin: 20px 10px;
+	padding: 10px 15px;
+	background: rgb(29, 206, 222);
+	text-decoration: none;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+}
+.anchor {
+	text-decoration: none;
+}
+.main-service {
+	display: flex;
+	flex-direction: left;
+	margin: auto;
+	max-width: 600;
+	padding: 10px 10px;
+}
