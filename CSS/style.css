@@ -1,6 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
-	background-color: burlywood;
+	background-color: transparent;
 	margin: 0;
 	padding: 0;
 }
@@ -9,20 +9,7 @@ body {
 	width: 30%;
 	height: 100%;
 }
-.service-container {
-	height: auto;
-	width: 25%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	box-sizing: border-box;
-	padding: 10px;
-	margin: ;
-}
-p {
-	text-align: justify;
-	font-size: 16px;
-}
+
 .submit-button {
 	margin: 20px 10px;
 	padding: 10px 15px;
@@ -37,10 +24,47 @@ p {
 .anchor {
 	text-decoration: none;
 }
-.main-service {
-	display: flex;
-	flex-direction: left;
-	margin: auto;
-	max-width: 600;
-	padding: 10px 10px;
+.navbar {
+	float: right;
+	padding: 20px;
+	margin: 20px 10px;
+}
+.nav-anchor {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	background: rgb(29, 206, 222);
+	border: 2px solid rgb(191, 221, 222);
+}
+.nav-anchor:hover {
+	background: rgb(191, 221, 222);
+	border: 2px solid rgb(29, 206, 222);
+	transition: ease 1s;
+}
+.header a {
+	color: black;
+	font-weight: 600px !important;
+	padding: 20px;
+	margin: 20px 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.header a:hover {
+	background-color: #28f4e6;
+	transition: ease 1s;
+	color: black;
+	border: brown;
+	text-transform: capitalize;
+}
+.logo-image {
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 2px solid whitesmoke;
+	align-content: center;
 }
