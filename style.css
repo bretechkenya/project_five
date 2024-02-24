@@ -788,6 +788,18 @@ div .image img {
    }
 }
 
+@media (max-width: 420px) {
+   .main-service {
+      height: 4000px;
+   }
+
+   .service-container {
+      width: 90%;
+      height: 650px;
+      margin: 0 auto;
+   }
+}
+
 
 @keyframes slideBottom {
    from {
