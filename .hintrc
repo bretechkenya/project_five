@@ -1,13 +1,1 @@
-{
-  "extends": [
-    "development"
-  ],
-  "hints": {
-    "axe/keyboard": [
-      "default",
-      {
-        "nested-interactive": "off"
-      }
-    ]
-  }
-}
+
